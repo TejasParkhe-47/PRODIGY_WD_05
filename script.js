@@ -42,15 +42,15 @@ search.addEventListener("click" ,()=>{
        
         
         if(Response.cloud_pct<=25){
-            img.src="images/clear.png";
+            img.src="clear.png";
             description.innerHTML="clear sky";
         }
         if(Response.temp<10){
-            img.src="images/snow.png";
+            img.src="snow.png";
             description.innerHTML="snow"
         }
         if(Response.cloud_pct>=75){
-            img.src="images/cloud.png";
+            img.src="cloud.png";
             description.innerHTML="cloudy sky"
         }
 
